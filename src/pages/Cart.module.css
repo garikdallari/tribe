@@ -1,0 +1,141 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  margin-top: 30px;
+  width: 800px;
+  border: 1px solid #e5e4e2;
+  padding: 20px 40px;
+}
+.title {
+  text-align: left;
+  font-size: 24px;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+.clientData {
+  width: 50%;
+  padding: 10px;
+}
+.details {
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #e5e4e2;
+  text-align: left;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inputs input {
+    width: 80%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #e5e4e2;
+    font-size: 18px;
+}
+.inputs input::placeholder {
+    color: gray;
+}
+.inputWrapper {
+  text-align: left;
+}
+.asterix {
+  color: crimson;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image {
+  display: flex;
+  align-items: center;
+}
+.image img {
+  width: 100px;
+  height: 100px;
+}
+.data p {
+  font-size: 22px;
+  font-weight: bold;
+}
+.price p {
+  font-size: 22px;
+  font-weight: bold;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.totalText {
+  font-size: 24px;
+}
+.totalNumber {
+  font-size: 20px;
+}
+.buttonWrapper {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.btn {
+  border: none;
+  background: crimson;
+  color: white;
+  font-size: 20px;
+  border: 1px solid red;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+.btn:hover {
+  background-color: white;
+  color: crimson;
+}
+.qWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.counter {
+  display: flex;
+  gap: 5px;
+}
+.counterBtn {
+  border: none;
+  background-color: white;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 50ms ease;
+}
+.counterBtn:hover {
+    background-color: lightgray;
+}
+.total {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+.totalText {
+    font-size: 24px;
+    font-weight: bold;
+}
+.totalNumber {
+    font-size: 24px;
+    font-weight: bold;
+}

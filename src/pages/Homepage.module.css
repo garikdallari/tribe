@@ -1,0 +1,29 @@
+.hero {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgWrapper {
+    width: 200px;
+    height: 200px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+.btn {
+    border: none;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    border: 1px solid red;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+.btn:hover {
+    background-color: white;
+    color: crimson;
+}

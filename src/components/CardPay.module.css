@@ -1,0 +1,33 @@
+.cardpay {
+  width: 100%;
+  margin-top: 30px;
+}
+.title {
+    font-weight: bold;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.fullInput {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 18px;
+}
+.fullInput::placeholder {
+    color: #e5e4e2;
+}
+.group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.groupInput {
+    max-width: 80px;
+    padding: 10px 20px;
+    border: none;
+}
+.groupInput::placeholder {
+    color: #e5e4e2;
+}
